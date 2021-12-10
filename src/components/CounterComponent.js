@@ -38,7 +38,12 @@ const styles = StyleSheet.create({
     color: 'forestgreen',
     fontSize: 20,
   },
-  wrapBtn: {height: 50, margin: 10, flexDirection: 'row'},
+  wrapBtn: {
+    height: 50,
+    margin: 10,
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
   txtBtn: {fontSize: 18, color: 'white'},
   btn: {
     padding: 10,
@@ -54,7 +59,7 @@ const styles = StyleSheet.create({
     marginLeft: 30,
   },
   txtCounts: {
-    margin: 10,
+    margin: 20,
     fontWeight: 'bold',
     color: 'darkblue',
     fontSize: 17,
